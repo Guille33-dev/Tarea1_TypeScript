@@ -142,7 +142,6 @@ enum ClasePersonaje {
 }
 
 function nombreClasePorNumero(n: number): string {
-  // OJO: TypeScript permite indexar el enum por número para obtener el nombre
   return ClasePersonaje[n] ?? "Clase desconocida"
 }
 
